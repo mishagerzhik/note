@@ -1,0 +1,48 @@
+.btn {
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.red_box {
+    position: relative;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+}
+.blue_box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.btn_bg {
+    display: flex;
+    margin-top: 10px;
+    background-color: grey;
+    width: 100%;
+    padding: 10px 5px;
+    align-items: center;
+}
+.btn_bg button {
+    background-color: yellow;
+    margin-right: 10px;
+    height: 20px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.hz {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
